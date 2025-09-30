@@ -1,5 +1,7 @@
 # How to read WHEA_XPF_MCA
 
+Follow the guide mentioned [here](https://mr-kayz.github.io/RTS-Extra-Docs/docs/learning/WHEA-analysis-CMCI_NOTIFY_TYPE_GUID.html#whea_xpf_mca_section).
+
 To Read a WHEA_XPF_MCA_SECTION, do the following:
 - Split up the error packet of the section GUID to right before line `0x30`.
 - Take the last 64 bits (In hex, 64 bits are: `35 01 0c 00 00 00 a0 ba` - as an example) - This is the MCI status
