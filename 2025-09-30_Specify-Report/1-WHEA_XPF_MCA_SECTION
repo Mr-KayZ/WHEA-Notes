@@ -7,7 +7,7 @@
 00 00 00 00             - BankNumber
 35 01 0c 00 00 00 a0 ba - MCI_STATUS - This is the important bit!
 
-REM Remember, this is in little endian so you read from right to left!
+REM Remember, this is in little-endian so you read from right to left!
 REM Therefore MCI is: ba a0 00 00 00 0c 01 35
 
 REM We ignore the rest! They are uninportant for us for now
